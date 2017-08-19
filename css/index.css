@@ -99,11 +99,7 @@ header .main ul li a.active {
     }
 }
 
-@media only screen and (min-width: 30.0625em) and (max-width: 50em) {
-
-}
-
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 484px) {
     header .top .tel,
     header .top ul li:nth-child(3),
     header .top ul li:nth-child(4) {
@@ -134,7 +130,7 @@ header .main ul li a.active {
     }
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 484px) {
 
     header .main ul li {
         line-height: 3rem;
@@ -218,7 +214,7 @@ header .main ul li a.active {
     }
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 484px) {
 
     .content {
         padding: 0.5rem 0;
@@ -298,7 +294,7 @@ header .main ul li a.active {
     }
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 484px) {
 
     .tedian {
         width: 96%;
@@ -356,7 +352,7 @@ header .main ul li a.active {
     margin-right: 2rem;
     color: #ff9900;
 }
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 484px) {
 
     .gonggao {
         width: 96%;
@@ -423,7 +419,7 @@ header .main ul li a.active {
 .product .product-right .item h3 {
     float: left;
     width: 30%;
-    margin: 1.5rem 0;
+    margin-top: 3rem;
     font-size: 1.4rem;
     font-weight: normal;
     text-align: center;
@@ -479,9 +475,10 @@ header .main ul li a.active {
     float: left;
     width: calc(22% - 4.4rem);
     padding: 1rem;
+    margin-top: 1rem;
 }
 
-.product .product-right .item .buy div {
+.product .product-right .item .buy a {
     display: block;
     width: 90%;
     margin: 1.5rem auto;
@@ -493,22 +490,24 @@ header .main ul li a.active {
     background-color: #ff9900;
     border-radius: 5px;
 }
-
+.product .product-right .item .buy .gray{
+    background-color: #ccc;
+}
+.product .product-right .item .buy .gray:hover{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
 .product .product-right .item .buy a:hover,
 .product .product-right .item .buy a:active {
     background-color: #ffc468;
 }
 
-.product .product-right .item .buy a.disabled {
-    background-color: #ccc !important;
-    cursor: not-allowed;
-}
 @media only screen and (max-width: 50em) {
 
     .product .product-left {
         float: none;
         width: 100%;
-        margin-top: 2rem;
+        margin: 2rem 0;
         font-size: 2.2rem;
     }
 
@@ -548,7 +547,7 @@ header .main ul li a.active {
     }
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 484px) {
 
     .product {
         width: 96%;
@@ -652,7 +651,7 @@ header .main ul li a.active {
     }
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 484px) {
     .footer-content {
         width: 98%;
     }
